@@ -125,4 +125,23 @@
         width: 100vw;
     }
 
+    .imgBarro:hover{
+        filter: invert(1);
+    }
+
+    .imgPresente:hover{
+        filter: invert(1);
+    }
+
+    .imgLiquido:hover{
+        filter: invert(1);
+    }
+
+    .imgPrueba:hover{
+        filter: invert(1);
+    }
+
+    .imgJean:hover{
+        filter: invert(1);
+    }
 }
