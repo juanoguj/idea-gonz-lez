@@ -2,37 +2,46 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./images/logo-trans.png">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>le patrie</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="./images/logo-trans.png">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>le patrie</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 
 <body>
+  <header>
+    <div class="container-fluid d-grid gap-3 align-items-center">
+      <div class="d-flex flex-wrap justify-content-center py-3 mb-4">
+        <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+          <h1 class="fs-4" id="logo">LEPATRIE</h1>
+        </a>
 
-    <header>
-        <nav class="nav">
-            <h1>LEPATRIE</h1>
-            <div class="menu">
-                <span id="menuProyectos">PROYECTOS</span>
-                <button id="menuShop" onclick="window.location.href='shop.html'">SHOP</button>
-                <button id="menuCarro" onclick="window.location.href='cart.html'">CARRO</button>
-            </div>
-        </nav>
-    </header>
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="proyectos.html" class="nav-link active" aria-current="page">proyectos</a></li>
+          <li class="nav-item"><a href="shop.html" class="nav-link">shop</a></li>
+          <li class="nav-item"><a href="carro.html" class="nav-link">carro</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
 
-    <main class="main">
-        <div class="imgProyecto">
-            <img class="imgBarro" src="./images/barro.jpg">
-            <img class="imgPresente" src="./images/presente.jpg">
-            <img class="imgLiquido" src="./images/líquido.jpg">
-            <img class="imgPrueba" src="./images/prueba.jpg">
-            <img class="imgJean" src="./images/jean.jpg">
-        </div>
-    </main>
+  <main>
+    <div class="imgProyecto">
+      <img class="imgBarro" src="./images/barro.jpg">
+      <img class="imgPresente" src="./images/presente.jpg">
+      <img class="imgLiquido" src="./images/líquido.jpg">
+      <img class="imgPrueba" src="./images/prueba.jpg">
+      <img class="imgJean" src="./images/jean.jpg">
+    </div>
+  </main>
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
