@@ -6,7 +6,7 @@
 }
 
 #logo{
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 /* index.html */
@@ -28,6 +28,22 @@
     flex-flow: column nowrap;
     width: 100vw;
 }
+
+/* shop.html */
+
+.card{
+    border: black;
+}
+
+a img:last-child {
+    display: none;  
+  }
+  a:hover img:last-child {
+    display: block;  
+  }
+  a:hover img:first-child {
+    display: none;  
+  }
 
 
 @media (min-width: 768px) {
