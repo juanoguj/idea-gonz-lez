@@ -6,7 +6,7 @@
 }
 
 #logo {
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 #navbar {
@@ -17,12 +17,12 @@
 
 #btnProductoAleatorio {
     width: 100%;
+    font-size: x-small;
 }
 
 .img-index {
-    display: flex;
-    flex-flow: column nowrap;
     width: 100%;
+    padding-top: 10vh;
 }
 
 /*proyectos.html */
@@ -36,7 +36,7 @@
 /* shop.html */
 
 .card {
-    border: black;
+    border: solid 3px;
 }
 
 a img:last-child {
@@ -51,6 +51,9 @@ a:hover img:first-child {
     display: none;
 }
 
+#filtros {
+    opacity: 25%;
+}
 
 @media (min-width: 768px) {
 
@@ -70,6 +73,7 @@ a:hover img:first-child {
 
     .imgBarro:hover {
         filter: invert(1);
+        
     }
 
     .imgPresente:hover {
@@ -88,10 +92,6 @@ a:hover img:first-child {
         filter: invert(1);
     }
 
-/* info.html */
-
-#containerInfo{
-    display: block
-}
+    /* info.html */
 
 }
