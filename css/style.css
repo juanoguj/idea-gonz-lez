@@ -51,8 +51,35 @@ a:hover img:first-child {
     display: none;
 }
 
-#filtros {
+#barato {
     opacity: 25%;
+}
+
+#caro {
+    opacity: 25%;
+}
+
+#r-a {
+    opacity: 25%;
+}
+
+#barato:hover {
+    opacity: 100%;
+}
+
+#caro:hover {
+    opacity: 100%;
+}
+
+#r-a:hover {
+    opacity: 100%;
+}
+
+
+/* info.html */
+
+#navbar-info{
+    border: solid;
 }
 
 @media (min-width: 768px) {
