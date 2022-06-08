@@ -1,0 +1,11 @@
+#btnProductoAleatorio {
+  background-color: white;
+  border-style: none;
+  font-family: Montserrat, sans-serif;
+}
+
+#btnProductoAleatorio:hover {
+  color: #0cf900;
+  border-style: none;
+}
+/*# sourceMappingURL=main.css.map */

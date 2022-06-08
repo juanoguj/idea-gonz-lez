@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AEAA,AAAA,qBAAqB,CAAA;EACjB,gBAAgB,EAAE,KAAK;EACvB,YAAY,EAAE,IAAI;EAClB,WAAW,EDFN,UAAU,EAAE,UAAU;CCO9B;;AARD,AAII,qBAJiB,AAIhB,MAAM,CAAC;EACJ,KAAK,EDLA,OAAe;ECMpB,YAAY,EAAE,IAAI;CACrB",
+    "sources": [
+        "main.scss",
+        "_variables.scss",
+        "_botones.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}

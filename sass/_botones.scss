@@ -1,0 +1,9 @@
+#btnProductoAleatorio{
+    background-color: white;
+    border-style: none;
+    font-family: $fuente;
+    &:hover {
+        color: $colorHover;
+        border-style: none;
+    }
+}
