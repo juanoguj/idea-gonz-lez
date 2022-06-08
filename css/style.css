@@ -78,9 +78,6 @@ a:hover img:first-child {
 
 /* info.html */
 
-#navbar-info{
-    border: solid;
-}
 
 @media (min-width: 768px) {
 
