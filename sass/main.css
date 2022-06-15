@@ -1,14 +1,3 @@
-#btnProductoAleatorio {
-  background-color: white;
-  border-style: none;
-  font-family: Montserrat, sans-serif;
-}
-
-#btnProductoAleatorio:hover {
-  color: #0cf900;
-  border-style: none;
-}
-
 * {
   padding: 0;
   margin: 0;
@@ -34,6 +23,17 @@
 .img-index {
   width: 100%;
   padding-top: 10vh;
+}
+
+#btnProductoAleatorio {
+  background-color: white;
+  border-style: none;
+  font-family: Montserrat, sans-serif;
+}
+
+#btnProductoAleatorio:hover {
+  color: blue;
+  border-style: none;
 }
 
 /*proyectos.html */
@@ -126,8 +126,6 @@ a:hover img:first-child {
   .imgJean:hover {
       filter: invert(1);
   }
-
-  /* info.html */
 
 }
 /*# sourceMappingURL=main.css.map */
