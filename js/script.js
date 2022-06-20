@@ -10,6 +10,7 @@ imagenes = [
     "remegulable.jpg",
     "saco.jpg",
     "top.jpg",
+    "entera.jpg"
 ];
 
 function mostrarProductos() {
