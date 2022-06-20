@@ -6,11 +6,11 @@
           box-sizing: border-box;
 }
 
-#logo {
+body header #logo {
   font-weight: bolder;
 }
 
-#navbar {
+body header #navbar {
   background-color: white;
 }
 
@@ -44,7 +44,7 @@
 }
 
 .card {
-  border: solid 3px;
+  border: solid 1px;
 }
 
 a img:last-child {
