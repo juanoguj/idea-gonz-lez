@@ -14,11 +14,6 @@
   background-color: white;
 }
 
-#btnProductoAleatorio {
-  width: 100%;
-  font-size: x-small;
-}
-
 .img-index {
   width: 100%;
   padding-top: 10vh;
@@ -28,6 +23,8 @@
   background-color: white;
   border-style: none;
   font-family: Montserrat, sans-serif;
+  width: 100%;
+  font-size: x-small;
 }
 
 #btnProductoAleatorio:hover {
@@ -66,20 +63,20 @@ a:hover img:first-child {
   opacity: 25%;
 }
 
-#caro {
-  opacity: 25%;
-}
-
-#r-a {
-  opacity: 25%;
-}
-
 #barato:hover {
   opacity: 100%;
 }
 
+#caro {
+  opacity: 25%;
+}
+
 #caro:hover {
   opacity: 100%;
+}
+
+#r-a {
+  opacity: 25%;
 }
 
 #r-a:hover {
