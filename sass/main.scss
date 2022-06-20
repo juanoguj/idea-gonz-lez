@@ -1,2 +1,116 @@
-@import 'variables';
-@import 'botones';
+* {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+  }
+
+  #logo {
+    font-weight: bolder;
+  }
+  
+  #navbar {
+    background-color: white;
+  }
+
+  #btnProductoAleatorio {
+    width: 100%;
+    font-size: x-small;
+  }
+  
+  .img-index {
+    width: 100%;
+    padding-top: 10vh;
+  }
+  
+  #btnProductoAleatorio {
+    background-color: white;
+    border-style: none;
+    font-family: Montserrat, sans-serif;
+  }
+  
+  #btnProductoAleatorio:hover {
+    color: blue;
+    border-style: none;
+  }
+
+  .imgProyecto {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100vw;
+  }
+
+  .card {
+    border: solid 3px;
+  }
+  
+  a img:last-child {
+    display: none;
+  }
+  
+  a:hover img:last-child {
+    display: block;
+  }
+  
+  a:hover img:first-child {
+    display: none;
+  }
+  
+  #barato {
+    opacity: 25%;
+  }
+  
+  #caro {
+    opacity: 25%;
+  }
+  
+  #r-a {
+    opacity: 25%;
+  }
+  
+  #barato:hover {
+    opacity: 100%;
+  }
+  
+  #caro:hover {
+    opacity: 100%;
+  }
+  
+  #r-a:hover {
+    opacity: 100%;
+  }
+
+  @media (min-width: 768px) {
+  
+    .img-index {
+        max-width: 100rem;
+    }
+  
+    .imgProyecto {
+        display: flex;
+        flex-flow: column nowrap;
+        width: 100%;
+    }
+  
+    .imgBarro:hover {
+        filter: invert(1);
+        
+    }
+  
+    .imgPresente:hover {
+        filter: invert(1);
+    }
+  
+    .imgLiquido:hover {
+        filter: invert(1);
+    }
+  
+    .imgPrueba:hover {
+        filter: invert(1);
+    }
+  
+    .imgJean:hover {
+        filter: invert(1);
+    }
+  
+  }
